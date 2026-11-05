@@ -25,7 +25,7 @@ public class Main {
                sum1 += arr[i][j];
                sum2 += arr[j][i];
                if (i == j) sum3 += arr[i][j];
-               if (i+j == 4) sum4 += arr[i][j];
+               if (i+j == arr.length-1) sum4 += arr[i][j];
            }
            if (sum1 > max) max = sum1;
            if (sum2 > max) max = sum2;
