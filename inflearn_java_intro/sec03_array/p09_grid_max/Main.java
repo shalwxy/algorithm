@@ -1,7 +1,7 @@
 package inflearn_java_intro.sec03_array.p09_grid_max;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] arr = {
                 {10, 13, 10, 12, 15},
                 {12, 39, 30, 23, 11},

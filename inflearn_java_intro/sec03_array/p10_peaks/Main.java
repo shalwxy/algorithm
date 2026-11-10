@@ -1,7 +1,7 @@
 package inflearn_java_intro.sec03_array.p10_peaks;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] arr = {
                 {5, 3, 7, 2, 3},
                 {3, 7, 1, 6, 1},

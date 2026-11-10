@@ -1,7 +1,7 @@
 package inflearn_java_intro.sec03_array.p12_mentoring;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] arr = {
                 {3, 4, 1, 2},
                 {4, 3, 2, 1},

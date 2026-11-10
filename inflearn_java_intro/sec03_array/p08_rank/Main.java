@@ -3,7 +3,7 @@ package inflearn_java_intro.sec03_array.p08_rank;
 import java.util.Arrays;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(Arrays.toString(solution(5, new int[]{87, 89, 92, 100, 76})));
     }
 

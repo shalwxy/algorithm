@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(solution(9, new int[]{32, 55, 62, 20, 250, 370, 200, 30, 100}));
     }
 
