@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static int solution2(int m, int[] arr) {
-        int answer=0, sum=0, lt=0;
+        int answer = 0, sum = 0, lt = 0;
         for (int rt=0; rt<arr.length; rt++) {
             sum += arr[rt];
             if (sum == m) answer++;
