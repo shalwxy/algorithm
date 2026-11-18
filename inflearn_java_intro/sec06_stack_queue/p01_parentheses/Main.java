@@ -14,8 +14,7 @@ public class Main {
         for (char x : s.toCharArray()) {
             if (x == '(') {
                 stack.push(x);
-            }
-            if (x == ')') {
+            } else if (x == ')') {
                 if (stack.isEmpty()) return "NO";
                 stack.pop();
             }
