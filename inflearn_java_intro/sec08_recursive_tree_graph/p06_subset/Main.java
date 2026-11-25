@@ -14,12 +14,15 @@ public class Main {
 
     public static void dfs1(int l) {
         if (l == n+1) {
+            String tmp = "";
             for (int i=0; i<check.length; i++) {
                 if (check[i] == 1) {
-                    System.out.printf("%d ", i+1);
+                    tmp += (i+1) + " ";
                 }
             }
-            System.out.println();
+            if (tmp.length() > 0) {
+                System.out.println(tmp);
+            }
             return;
         }
         check[l-1] = 1;
