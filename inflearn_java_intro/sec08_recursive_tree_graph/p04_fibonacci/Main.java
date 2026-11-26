@@ -17,14 +17,14 @@ public class Main {
 
     public static int dfs3(int n) {
         if (n == 1|| n == 2) return fibonacci[n-1] = 1;
-        if (fibonacci[n-1] > 0) { // 메모이제이션 활용해서 시간복잡도 감소
+        if (fibonacci[n-1] > 0) { // 메모이제이션 활용해서 시간복잡도 보다 더 감소
             return fibonacci[n-1];
         }
         return fibonacci[n-1] = dfs3(n-2) + dfs3(n-1);
     }
 
     public static int dfs2(int n) {
-        if (n == 1|| n == 2) return fibonacci[n-1] = 1;
+        if (n == 1|| n == 2) return fibonacci[n-1] = 1; // 메모이제이션 활용해서 시간복잡도 감소
         return fibonacci[n-1] = dfs2(n-2) + dfs2(n-1);
     }
 
